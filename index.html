@@ -51,6 +51,31 @@ body::after{
     filter:blur(60px);
     z-index:-1;
 }
+    /* WHATSAPP FLOTANTE */
+
+.whatsapp-float{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:25px;
+    right:25px;
+    background:#25D366;
+    color:white;
+    border-radius:50%;
+    text-align:center;
+    font-size:32px;
+    box-shadow:0 8px 20px rgba(0,0,0,.3);
+    z-index:1000;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.whatsapp-float:hover{
+    transform:scale(1.1);
+}
 
 /* HEADER */
 
